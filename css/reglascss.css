@@ -73,6 +73,10 @@ nav{
     width: 100%;
     background-position: center;
 }
+.videox{
+    height: 300px;
+    width: 100%;
+}
 div{
     background-image: url("../img/blanco.png");
 }
