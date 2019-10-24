@@ -1,0 +1,20 @@
+.noticia{
+width: 15%;
+float: left;
+margin: 5px;
+}
+.contenido{
+    margin: 5px;
+    width: 48%;
+    float: left;
+}
+.novedades{
+    margin: 5px;
+    width: 35%;
+    float: left;
+    
+}
+footer{
+    margin: 5px;
+    clear: both;
+}

@@ -1,0 +1,102 @@
+/*selector global*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background: image();
+}
+body{
+    background-image: url("../img/fondo3.png");
+}
+
+/*selector directo*/
+.logo{
+    height: 200px;
+    width: 100%;
+    background-image: url(../img/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.logo2{
+    height: 310px;
+    width: 100%;
+    background-image: url(../img/asus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/*selector directo >*/
+header>h1{
+    color: rgb(218, 211, 224);
+    text-transform: uppercase;
+}
+
+main{
+    padding-top: 10px;;
+}
+
+
+footer{
+    background-image: url("../img/fondo2.jpg");
+    text-align: center;
+}
+
+
+nav a{
+    text-decoration: none;
+    display: block;
+    padding: 15px 5px;
+}
+nav a:hover{
+    background-color: rgb(16, 27, 31);
+}
+
+nav{
+    background-image: url("../img/fondo2.jpg");
+    height: 100%;
+    border: 2px dotted rgb(11, 185, 40);
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.im{
+    width: 100%;
+    background-position: center;
+}
+div{
+    background-image: url("../img/blanco.png");
+}
+section{
+    background-image: url("../img/blanco.png");
+}
+aside{
+    background-image: url("../img/blanco.png");
+}
+
+aside{
+    height: 300px;
+}
+h3{
+    text-align: center ;
+    margin: 5px;
+}
+article{
+    margin: 1px;
+    margin: 10px 0px;
+    text-align: justify;
+    border-bottom: 4px dotted rgb(0, 255, 42);
+    padding-bottom: 5px;
+}
+p{
+    margin: 5px;
+}
