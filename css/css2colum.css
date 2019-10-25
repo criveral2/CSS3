@@ -1,9 +1,10 @@
-body main{
-    display: flex;
+.navegador{
+
+    width: 20%;
+    float: left;
 }
-main nav{
-    width: 30%;
+.contenido{
+    width: 60%;
+    float: left;
 }
-main section{
-    width: 70%;
-}
+

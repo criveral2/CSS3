@@ -1,9 +1,18 @@
+<!-- la etiqueta <!DOCTYPE> definira que el archivo sera del tipo html-->
 <!DOCTYPE html>
+<!--Definirimes la seccion de nuestra pagina web y se especificara el idioma empleado segun las recomendaciones de W3C value-->
 <html lang="es">
 
+<!--la etiqueta <head> definira los metadatos que seran utilizados por la pagina sin embargo el usuario no podra visualizarlos-->
+
 <head>
+    <!--Hace referencia a que podra distingir letras especiales como es el caso de la ñ-->
+
     <meta charset="uf-8">
+    <!--<title> = nos idica el nombre de la pestaña de nuestra pagina web-->
+
     <title>Blog de computadoras</title>
+    <!--link nos permitira exportar estilos css a nuestra pagina html-->
     <link rel="stylesheet" href="css/reglascss.css">
     <link rel="stylesheet" href="css/css2colum.css">
 
@@ -14,166 +23,168 @@
         <h1>Mi blog</h1>
     </header>
     <h1>Tu blog de computadoras</h1>
-    <main>
-
-        <nav>
-            <ul>
-                <li><a href="Asus/zenbook.html">Laptop ZenBook pro</a></li>
-                <li><a href="Apple/macbookpro.html">Laptop MacBook pro</a></li>
-                <li><a href="msi/gs65.html">Laptop msi GS65</a></li>
-                <li><a href="lenovo/y530.html">Laptop Legion y530</a></li>
-                <li><a href="hp/spectre.html">Laptop Spectre</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
 
 
-        <section>
-            <h2>Que es un computador portatil ?</h2>
+    <nav class="navegador">
+        <h3 class="h3">Menu</h3>
+        <ul>
+            <li><a href="Asus/zenbook.html">Laptop ZenBook pro</a></li>
+            <li><a href="Apple/macbookpro.html">Laptop MacBook pro</a></li>
+            <li><a href="msi/gs65.html">Laptop msi GS65</a></li>
+            <li><a href="lenovo/y530.html">Laptop Legion y530</a></li>
+            <li><a href="hp/spectre.html">Laptop Spectre</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
 
-            <article>
-                <p>Una computadora portátil, ordenador portátil o computador portátil, es un dispositivo informático
-                    que se puede mover o transportar con relativa facilidad. Los ordenadores portátiles son capaces
-                    de realizar la mayor parte de las tareas que realizan los ordenadores de escritorio, también
-                    llamados «de torre» o simplemente pc, con similares capacidades y con la ventaja de su peso y
-                    tamaño reducidos. Además, también tienen la capacidad de operar por un período determinado por
-                    medio de baterías recargables, sin estar conectadas a una red eléctrica.</p>
 
-                <iframe  width="560" height="315" src="https://www.youtube.com/embed/AhPiAxAuQSM" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </article>
 
-            <article>
-                <h3>Historia</h3>
-                <p>
-                    La primera computadora portátil fue la Epson HX-20 desarrollada en 1981. Demostró sus grandes
-                    beneficios para el trabajo de científicos, militares, empresarios, y otros profesionales, que
-                    vieron la ventaja de poder llevar con ellos su computadora con toda la información que
-                    necesitaban de un lugar a otro.
+    <section class="contenido">
+        <h2>Que es un computador portatil ?</h2>
 
-                    La Osborne 1 salió al mercado comercial en abril de 1981. Tuvo éxito para el comercio mayorista
-                    con el formato actual, aunque entonces eran sumamente limitadas, incluso para la tecnología de la
-                    época.
+        <article>
+            <p>Una computadora portátil, ordenador portátil o computador portátil, es un dispositivo informático
+                que se puede mover o transportar con relativa facilidad. Los ordenadores portátiles son capaces
+                de realizar la mayor parte de las tareas que realizan los ordenadores de escritorio, también
+                llamados «de torre» o simplemente pc, con similares capacidades y con la ventaja de su peso y
+                tamaño reducidos. Además, también tienen la capacidad de operar por un período determinado por
+                medio de baterías recargables, sin estar conectadas a una red eléctrica.</p>
 
-                    En 1985 el Departamento I&D de CMET desarrolló Microtor I, un computador portátil basado en
-                    la CPU 6502. Fue el primero en incorporar un módem acústico, display de cristal líquido e
-                    impresora térmica. El desarrollo fue lanzado en la Feria Internacional de Santiago FISA de ese año.
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AhPiAxAuQSM" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </article>
 
-                    En 1995, con la llegada de Windows 95, la venta de las portátiles se incrementó notablemente.
-                    En la actualidad rebasa las ventas de los equipos de escritorio. En el tercer trimestre de 2008,
-                    las ventas de los portátiles superaron por primera vez las de los equipos de escritorio, según
-                    la firma de investigación iSuppli Corp.2
-                </p>
-            </article>
+        <article>
+            <h3>Historia</h3>
+            <p>
+                La primera computadora portátil fue la Epson HX-20 desarrollada en 1981. Demostró sus grandes
+                beneficios para el trabajo de científicos, militares, empresarios, y otros profesionales, que
+                vieron la ventaja de poder llevar con ellos su computadora con toda la información que
+                necesitaban de un lugar a otro.
 
-            <article>
-                <h3>Impacto Social</h3>
-                <p>
-                    «Lo crucial es que el crecer en una sociedad moderna ha sufrido tres cambios fundamentales: la
-                    modificación de las relaciones familiares, la restructuración de las fases de la niñez y de la
-                    juventud, y un crecimiento de los aparatos tecnológicos día a día.»3​ La comunicación es
-                    fundamental especialmente para los jóvenes que viven en esta época de modernización.
+                La Osborne 1 salió al mercado comercial en abril de 1981. Tuvo éxito para el comercio mayorista
+                con el formato actual, aunque entonces eran sumamente limitadas, incluso para la tecnología de la
+                época.
 
-                    Los aparatos tecnológicos como las computadoras portátiles, han facilitado esta comunicación de
-                    persona a persona,ya que a través de esta tecnología uno se puede comunicar sin necesidad de
-                    estar de frente a la otra persona.
-                </p>
-                <p>
-                    El poder comunicarse a través de estos medios le han facilitado a muchos sus trabajos ya que
-                    tienen «mayor libertad y comodidad».4​ Pero también existe una desventaja de estos avances en
-                    la tecnología como la computadora portátil, nos han hecho ser personas más individualistas y,
-                    en una sociedad tan competitiva como ésta, las personas deben desarrollarse tanto en el ámbito
-                    social como en el tecnológico, y conseguir un equilibrio entre ambos para poder progresar.
-                </p>
-                <p>
-                    El impacto social de la tecnología y la ciencia han sido soporte de la mejora en el bienestar
-                    de una población y su calidad de vida, sin descuidar los aspectos materiales relacionados con ellos,
-                    tales como la alimentación, la vivienda, el transporte, las comunicaciones y toda la actividad de
-                    infraestructura económica que resulta imprescindible para el desarrollo de un país y de sus
-                    personas.
-                </p>
+                En 1985 el Departamento I&D de CMET desarrolló Microtor I, un computador portátil basado en
+                la CPU 6502. Fue el primero en incorporar un módem acústico, display de cristal líquido e
+                impresora térmica. El desarrollo fue lanzado en la Feria Internacional de Santiago FISA de ese año.
 
-            </article>
+                En 1995, con la llegada de Windows 95, la venta de las portátiles se incrementó notablemente.
+                En la actualidad rebasa las ventas de los equipos de escritorio. En el tercer trimestre de 2008,
+                las ventas de los portátiles superaron por primera vez las de los equipos de escritorio, según
+                la firma de investigación iSuppli Corp.2
+            </p>
+        </article>
 
-            <article>
-                <h3>Componentes</h3>
-                <p>
-                    <b>CPU de bajo consumo:</b> Intel Core i3/i5/i7, Intel Core 2 Duo, Intel Core, Intel Atom, Celeron,
-                    Pentium,
-                    AMD Turion, AMD Phenom o AMD Fusion.
-                </P>
-                <P> <b>Disco durb: </b> de 6,35 cm (2,5") o menor, frente a los discos de 8,89 cm (3,5") de los
-                    ordenadores
-                    de
-                    escritorio. También Unidades de estado sólido. </P>
+        <article>
+            <h3>Impacto Social</h3>
+            <p>
+                «Lo crucial es que el crecer en una sociedad moderna ha sufrido tres cambios fundamentales: la
+                modificación de las relaciones familiares, la restructuración de las fases de la niñez y de la
+                juventud, y un crecimiento de los aparatos tecnológicos día a día.»3​ La comunicación es
+                fundamental especialmente para los jóvenes que viven en esta época de modernización.
 
-                <P> <b>Módulos de memoria: </b> RAM SO-DIMM (Small Outline DIMM) más pequeños que los DIMM usuales en
-                    los
-                    ordenadores
-                    de escritorio.</P>
+                Los aparatos tecnológicos como las computadoras portátiles, han facilitado esta comunicación de
+                persona a persona,ya que a través de esta tecnología uno se puede comunicar sin necesidad de
+                estar de frente a la otra persona.
+            </p>
+            <p>
+                El poder comunicarse a través de estos medios le han facilitado a muchos sus trabajos ya que
+                tienen «mayor libertad y comodidad».4​ Pero también existe una desventaja de estos avances en
+                la tecnología como la computadora portátil, nos han hecho ser personas más individualistas y,
+                en una sociedad tan competitiva como ésta, las personas deben desarrollarse tanto en el ámbito
+                social como en el tecnológico, y conseguir un equilibrio entre ambos para poder progresar.
+            </p>
+            <p>
+                El impacto social de la tecnología y la ciencia han sido soporte de la mejora en el bienestar
+                de una población y su calidad de vida, sin descuidar los aspectos materiales relacionados con ellos,
+                tales como la alimentación, la vivienda, el transporte, las comunicaciones y toda la actividad de
+                infraestructura económica que resulta imprescindible para el desarrollo de un país y de sus
+                personas.
+            </p>
 
-                <P><b>Unidad lectora y grabadora de CD DVD o Blu-Ray de formato reducido (slim).</b> Puede que en
-                    algunos
-                    modelos
-                    actuales no incluyan un lector, pero puede comprar por separado (externo).</P>
+        </article>
 
-                <p><b>Teclado integrado: </b> que suelen tener una distancia de recorrido más corta para las
-                    combinaciones y
-                    para
-                    un reducido grupo de teclas. No suele contar con teclado numérico y las teclas de función pueden
-                    estar
-                    colocadas
-                    en sitios que difieren de un teclado de ordenador de sobremesa.</p>
+        <article>
+            <h3>Componentes</h3>
+            <p>
+                <b>CPU de bajo consumo:</b> Intel Core i3/i5/i7, Intel Core 2 Duo, Intel Core, Intel Atom, Celeron,
+                Pentium,
+                AMD Turion, AMD Phenom o AMD Fusion.
+            </P>
+            <P> <b>Disco durb: </b> de 6,35 cm (2,5") o menor, frente a los discos de 8,89 cm (3,5") de los
+                ordenadores
+                de
+                escritorio. También Unidades de estado sólido. </P>
 
-                <p><b>Pantalla integrada tipo TFT u OLED: </b> que a su vez realiza la función de tapa del portátil y
-                    facilita su
-                    movilidad. Los portátiles modernos generalmente cuentan con una pantalla de 13 pulgadas (33 cm) o
-                    mayor,
-                    con
-                    resoluciones de 1280×800 (16:10) o 1366 × 768 (16:9) pixeles o superiores. Algunos modelos utilizan
-                    pantallas
-                    con resoluciones comunes en ordenadores de sobremesa (por ejemplo, 1440×900, 1600×900 y 1680×1050.)
-                    Los
-                    modelos
-                    con retroiluminación basada en LED tienen un menor consumo de electricidad y ángulos de visión más
-                    anchos. Los
-                    que cuentan con pantallas de 10 pulgadas (25 cm) o menos poseen una resolución de 1024×600, mientras
-                    que
-                    los de
-                    11,6 (29 cm) o 12 pulgadas (30 cm) tienen resoluciones estándares de portátiles.</p>
+            <P> <b>Módulos de memoria: </b> RAM SO-DIMM (Small Outline DIMM) más pequeños que los DIMM usuales en
+                los
+                ordenadores
+                de escritorio.</P>
 
-                <p><b>Panel táctil:</b> para manejar el puntero en lugar del ratón. </p>
+            <P><b>Unidad lectora y grabadora de CD DVD o Blu-Ray de formato reducido (slim).</b> Puede que en
+                algunos
+                modelos
+                actuales no incluyan un lector, pero puede comprar por separado (externo).</P>
 
-                <p> <b>Cargador o abreviadamente PSU (del inglés Power Supply Unit, fuente de alimentación): </b> que
-                    tiende
-                    a ser
-                    universal (denominado Universal Power Adapter for Mobile Devices - UPAMD).9​ Los portátiles se
-                    pueden
-                    cargar en
-                    uso, para optimizar tiempo y energía. Generalmente pueden recibir indistintamente corriente alterna
-                    americana
-                    (110 V a 60 Hz) o europea (220 V a 50 Hz), y producen un voltaje de corriente continúa de unos 12
-                    voltios
-                    (en el rango de 7,2 a 19,5 voltios).</p>
+            <p><b>Teclado integrado: </b> que suelen tener una distancia de recorrido más corta para las
+                combinaciones y
+                para
+                un reducido grupo de teclas. No suele contar con teclado numérico y las teclas de función pueden
+                estar
+                colocadas
+                en sitios que difieren de un teclado de ordenador de sobremesa.</p>
 
-                <p><b>Batería:</b> que suele tener típicamente una duración de 2 a 4 horas en equipos de 15,6". Una
-                    batería
-                    de 6
-                    celdas en un netbook con Intel Atom puede proporcionar una duración de unas 6 horas dependiendo del
-                    modelo y el uso. </p>
-                </p>
+            <p><b>Pantalla integrada tipo TFT u OLED: </b> que a su vez realiza la función de tapa del portátil y
+                facilita su
+                movilidad. Los portátiles modernos generalmente cuentan con una pantalla de 13 pulgadas (33 cm) o
+                mayor,
+                con
+                resoluciones de 1280×800 (16:10) o 1366 × 768 (16:9) pixeles o superiores. Algunos modelos utilizan
+                pantallas
+                con resoluciones comunes en ordenadores de sobremesa (por ejemplo, 1440×900, 1600×900 y 1680×1050.)
+                Los
+                modelos
+                con retroiluminación basada en LED tienen un menor consumo de electricidad y ángulos de visión más
+                anchos. Los
+                que cuentan con pantallas de 10 pulgadas (25 cm) o menos poseen una resolución de 1024×600, mientras
+                que
+                los de
+                11,6 (29 cm) o 12 pulgadas (30 cm) tienen resoluciones estándares de portátiles.</p>
 
-            </article>
+            <p><b>Panel táctil:</b> para manejar el puntero en lugar del ratón. </p>
 
-            <article>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/NGDs13Xks9s" frameborder="0" allow="accelerometer; 
+            <p> <b>Cargador o abreviadamente PSU (del inglés Power Supply Unit, fuente de alimentación): </b> que
+                tiende
+                a ser
+                universal (denominado Universal Power Adapter for Mobile Devices - UPAMD).9​ Los portátiles se
+                pueden
+                cargar en
+                uso, para optimizar tiempo y energía. Generalmente pueden recibir indistintamente corriente alterna
+                americana
+                (110 V a 60 Hz) o europea (220 V a 50 Hz), y producen un voltaje de corriente continúa de unos 12
+                voltios
+                (en el rango de 7,2 a 19,5 voltios).</p>
+
+            <p><b>Batería:</b> que suele tener típicamente una duración de 2 a 4 horas en equipos de 15,6". Una
+                batería
+                de 6
+                celdas en un netbook con Intel Atom puede proporcionar una duración de unas 6 horas dependiendo del
+                modelo y el uso. </p>
+            </p>
+
+        </article>
+
+
+
+        <article>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NGDs13Xks9s" frameborder="0" allow="accelerometer; 
            autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </article>
+        </article>
 
-        </section>
-
-    </main>
+    </section>
 
 
     <img src="img/Funciones.jpg" alt="imagen" class="im">
