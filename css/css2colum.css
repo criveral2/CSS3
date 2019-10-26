@@ -4,7 +4,11 @@
     float: left;
 }
 .contenido{
-    width: 60%;
+    width: 75%;
     float: left;
+}
+footer{
+    margin: 5px;
+    clear: both;
 }
 
