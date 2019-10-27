@@ -66,8 +66,12 @@ nav{
 }
 
 .im{
-    width: 100%;
-    background-position: center;
+    width: 90%;
+    padding-left: 10%;
+    
+}
+.im:hover {
+    transform: scale(1.1); 
 }
 .videox{
     height: 300px;
@@ -94,8 +98,13 @@ aside{
 
 
 h3{
+    /*alinear texto*/
     text-align: center ;
     margin: 5px;
+    /*transformar el texto a mayusculas*/
+    text-transform: uppercase;
+    /*Dar sombra al texto*/
+    text-shadow: 2px 1px rgb(32, 27, 36);
 }
 
 
@@ -109,6 +118,17 @@ article{
 
 p{
     margin: 5px;
+    /*dar sangria*/
+    text-indent: 5%;
+    /*juntificar el texto*/
+    text-align: justify;
+    /*dar tamaño de espacio entre cada palabra*/
+    letter-spacing: 3px;
+    /*dar ua fuente al texto*/
+    font-family: 'Acme';font-size: 22px;
+}
+p.pie{
+    text-align: center;
 }
 
 
@@ -166,6 +186,10 @@ iframe{
     font-size: 0.9em;
     text-align: center;
 }
+
+
+
+
 
 
 
