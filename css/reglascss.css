@@ -44,7 +44,10 @@ header>h1{
 
 footer{
     background-image: url("../img/fondo2.jpg");
-    text-align: center;
+    
+}
+footer{
+    text-align: center; 
 }
 
 
@@ -64,6 +67,10 @@ nav{
     border-radius: 10px;
     margin-right: 10px;
 }
+nav li .localidad {
+    background-color: rgb(36, 7, 139);
+    color: white;
+  }
 
 .im{
     width: 90%;
@@ -115,21 +122,34 @@ aside{
 
 h3{
     /*alinear texto*/
-    text-align: center ;
+    text-align: center ;  
+}
+h3{
     margin: 5px;
-    /*transformar el texto a mayusculas*/
-    text-transform: uppercase;
+}
+h3{
+      /*transformar el texto a mayusculas*/
+      text-transform: uppercase;
+}
+h3{
     /*Dar sombra al texto*/
     text-shadow: 2px 1px rgb(32, 27, 36);
 }
+
 h1{
       /*alinear texto*/
       text-align: center ;
-      margin: 5px;
-      /*transformar el texto a mayusculas*/
-      text-transform: uppercase;
-      /*Dar sombra al texto*/
-      text-shadow: 3px 1px rgb(32, 27, 36);
+}
+h1{
+    margin: 5px;
+}
+h1{
+     /*transformar el texto a mayusculas*/
+     text-transform: uppercase;
+}
+h1{
+     /*Dar sombra al texto*/
+     text-shadow: 3px 1px rgb(32, 27, 36);
 }
 
 #tamanioh1 h1{
@@ -146,8 +166,11 @@ h1{
 article{
     margin: 1px;
     margin: 10px 0px;
-    text-align: justify;
     
+}
+
+article{
+    text-align: justify;
     padding-bottom: 5px;
 }
 article{
@@ -303,8 +326,11 @@ iframe{
 
 
 
+
 /*---------complementos individuales-------*/
 
 article#bordebajo{
     border-bottom: 4px 
 }
+
+
