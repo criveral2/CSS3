@@ -2,6 +2,7 @@
 
     width: 20%;
     float: left;
+    text-decoration: none;
 }
 .contenido{
     width: 75%;
@@ -11,4 +12,13 @@ footer{
     margin: 5px;
     clear: both;
 }
+footer p {
+    margin: 0;
+    padding: 5%;
+}
+
+.centrado{
+    text-align: center;
+}
+
 

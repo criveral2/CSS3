@@ -18,3 +18,11 @@ footer{
     margin: 5px;
     clear: both;
 }
+
+#estilo p {
+    margin: 0;
+    padding: 5%;
+    text-align: center;
+}
+
+
