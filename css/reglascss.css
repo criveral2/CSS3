@@ -73,6 +73,19 @@ nav{
 .im:hover {
     transform: scale(1.1); 
 }
+
+.opacar{
+    text-align: center;
+    width: 100%;
+    padding-left: 10%;
+    padding-left: 10px;
+}
+
+.opacar:hover{
+    opacity: 0.5;
+}
+
+
 .videox{
     height: 300px;
     width: 100%;
@@ -122,6 +135,9 @@ h1{
 #tamanioh2 h2{
     font-size: 10px;
 }
+
+
+
 
 
 article{
