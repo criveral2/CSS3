@@ -144,7 +144,7 @@ Procedemos a crear el respectivo menú vertical con el siguiente código.
 ![32](https://user-images.githubusercontent.com/52549697/67659278-fa4f7f00-f929-11e9-9186-a6d2e034532f.JPG)
 ![33](https://user-images.githubusercontent.com/52549697/67659280-fa4f7f00-f929-11e9-847d-a8c031ca420a.png)
 
-
+1.11	Resultados
 
 ![34](https://user-images.githubusercontent.com/52549697/67659281-fa4f7f00-f929-11e9-9df6-fb7d693e1788.JPG)
 
@@ -153,7 +153,7 @@ Procedemos a crear el respectivo menú vertical con el siguiente código.
 ![36](https://user-images.githubusercontent.com/52549697/67659284-fae81580-f929-11e9-9749-651ddb6a7ebd.JPG)
 ![37](https://user-images.githubusercontent.com/52549697/67659285-fae81580-f929-11e9-82d2-041979fdbffe.JPG)
 
-1.11	Resultados
+
 ![38](https://user-images.githubusercontent.com/52549697/67659286-fb80ac00-f929-11e9-9524-4b6f73168e0b.png)
 ![39](https://user-images.githubusercontent.com/52549697/67659287-fb80ac00-f929-11e9-852c-f3879cfb0407.JPG)
 ![40](https://user-images.githubusercontent.com/52549697/67659289-fb80ac00-f929-11e9-985d-372a1e2fcc06.JPG)
