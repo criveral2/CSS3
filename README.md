@@ -176,12 +176,13 @@ Procedemos a crear el respectivo menú vertical con el siguiente código.
 ![57](https://user-images.githubusercontent.com/52549697/67659311-ff143300-f929-11e9-9224-0c5f5817dba3.JPG)
 ![58](https://user-images.githubusercontent.com/52549697/67659312-ff143300-f929-11e9-95d3-2660dfa81776.JPG)
 
-
+<pre>
 
 6.	información de GitHub
 Usuario: criveral2
 Correo: criveral2@est.ups.edu.ec
 Github: git@github.com:criveral2/Practica02-Mi-Sitio-Web-CSS-.git
+</pre>
 
 <pre>
 RESULTADO(S) OBTENIDO(S):
