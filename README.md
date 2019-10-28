@@ -1,5 +1,5 @@
 
-<pre> 	                     PRÁCTICA DE LABORATORIO 
+<pre> 	                                               PRÁCTICA DE LABORATORIO 
 
 CARRERA: Computación	
 ASIGNATURA: HIPERMEDIAL
@@ -12,18 +12,21 @@ estilos gráficos para crear paginas iterativas para el usuario.
 El desarrollo ayudó al buen manejo y al aprendizaje del estudiante sobre los sitios web.</pre>
 
 ACTIVIDADES DESARROLLADAS
+
 1.	Crear un repositorio en GitHub con el nombre “Practica02 – Mi Sitio Web (CSS)”
 Procedemos a crear un repositorio en la nube la cual nos ayudara a llevar un manejo de progresión de la resolución de la práctica, en este caso utilizaremos la plataforma GitHUb.
- 
+ ![1](https://user-images.githubusercontent.com/52549697/67659241-f4599e00-f929-11e9-9481-62cf3ccd4268.JPG)
 2.	Realizar un commit y push por cada requerimiento de los puntos antes descritos.
 Ya una vez creado nuestro repositorio en github procederemos a desarrollar la practica generando commits por cada punto el cual nos ayudara a llevar un seguimiento a nuestro avance del proyecto.
+
 PC
  
-
+![2](https://user-images.githubusercontent.com/52549697/67659242-f4599e00-f929-11e9-9941-81280b556e29.JPG)
 
 
 Github
 
+![3](https://user-images.githubusercontent.com/52549697/67659243-f4599e00-f929-11e9-88df-10fa2a2bb2a3.JPG)
  
 
 3.	Al finalizar la práctica se debe validar todas las páginas HTML y hojas de estilos CSS creadas usando el W3C Validator.
