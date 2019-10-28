@@ -66,32 +66,94 @@ Archivos CSS
 
 3 columnas
 
+Reglas css
+
+4.	Luego, se debe crear el archivo README del repositorio de GitHub.
+Procedemos a crear un documento .md en github
+
 ![12](https://user-images.githubusercontent.com/52549697/67659254-f6bbf800-f929-11e9-8f9e-3e13b5c7f215.JPG)
+
+5.	Generar informe
+
+1.1	Se pide realiza un sitio web que tenga al menos una página principal (index.html) y cinco páginas que tengan navegabilidad entre todas las páginas html. Además, se pide utilizar estilos CSS con la finalidad de obtener un diseño como el que se muestra a continuación, para cada una de las páginas html. El tema elegido por cada estudiante deberá ser distinto al realizado en la práctica 01 – Creación de un sitio web usando HTML5.
+
 ![13](https://user-images.githubusercontent.com/52549697/67659255-f6bbf800-f929-11e9-9f3d-131d1116aaec.JPG)
+
+Se puede observar que se han creado las respectivas paginas y carpetas contenedoras de los archivos css como de las imágenes utilizadas en nuestra página web.
+La paginas deberán tener navegabilidad entre ellas por lo que utilizaremos los comandos:
+
 ![14](https://user-images.githubusercontent.com/52549697/67659256-f7548e80-f929-11e9-9586-aac300669619.JPG)
+
+Estos comandos de html nos permitirán obtener conectividad entre las diferentes paginas web, cabe mencionar que algunos comandos pertenecen a el lenguaje css el cual permitirá darle un estilo al menú de interconexión.
+1.2	Utilizar, en al menos una página HTML, un diseño a dos columnas.
+Una vez ya creado el cuerpo de nuestras paginas web, procederemos a posicionarlas para que tome la forma de 2 columnas como pide nuestra guía de trabajo.
+
 ![15](https://user-images.githubusercontent.com/52549697/67659257-f7548e80-f929-11e9-96ff-ef27bc6f261c.JPG)
+
+Para que el estilo pueda ser aplicado se deberá llamar a la clase dentro de la etiqueta a la cual se quiere modificar, como resulta obtendríamos la página a dos columnas.
+
 ![16](https://user-images.githubusercontent.com/52549697/67659259-f7548e80-f929-11e9-8148-b80283792863.JPG)
+
+
+
+
 ![17](https://user-images.githubusercontent.com/52549697/67659260-f7ed2500-f929-11e9-8ec3-1f278d6c9956.png)
+
+1.3	Utilizar, en al menos una página HTML, un diseño a tres columnas.
+Utilizaremos el mismo método descrito anterior mente, pero para este caso crearemos 3 columnas y posteriormente a definir las respectivas clases que aran uso de las clases creadas teniendo como resultado una página a 3 columnas. 
+
 ![18](https://user-images.githubusercontent.com/52549697/67659261-f7ed2500-f929-11e9-8f30-312060dbd51d.png)
+
+1.4	Se pide que se creé al menos tres archivos CSS, estos archivos estarán almacenados en una carpeta llamada css. Un archivo será para el diseño a dos columnas, otro archivo para el diseño a tres columnas, y los demás archivos será para la reglas CSS relacionas a textos, colores, tablas, secciones, artículos, etc.
+
 ![19](https://user-images.githubusercontent.com/52549697/67659262-f7ed2500-f929-11e9-8198-1d5d51697045.JPG)
+
+Como se puede observar se creo una carpeta contenedora llamada css, la cual contendrá los archivos .css.
+1.5	Se pide que se utilice selectores por etiquetas, selectores descendentes, selectores por clase y selectores por id.
+1.6	Procedemos a crear las diferentes etiquetas.
+
+
 ![20](https://user-images.githubusercontent.com/52549697/67659263-f7ed2500-f929-11e9-8c45-b76e28a10ded.JPG)
 ![21](https://user-images.githubusercontent.com/52549697/67659264-f7ed2500-f929-11e9-9af7-fb6c8963a0ea.JPG)
 ![22](https://user-images.githubusercontent.com/52549697/67659265-f885bb80-f929-11e9-91ea-58f9c4ad297a.JPG)
 ![23](https://user-images.githubusercontent.com/52549697/67659266-f885bb80-f929-11e9-8138-29082282b42a.JPG)
 ![24](https://user-images.githubusercontent.com/52549697/67659268-f885bb80-f929-11e9-9242-1cf2e561fff3.JPG)
+
+1.7	Se pide que se personalicen al menos tres etiquetas para títulos (h1 – h6), tanto en color, tamaño, fuente, decoraciones, etc.
+Con la pagina ya casi completada procedemos a personalizar el estilo de nuestras etiquetas de texto.
+
 ![25](https://user-images.githubusercontent.com/52549697/67659269-f885bb80-f929-11e9-9f64-956b97cf884f.JPG)
-![26](https://user-images.githubusercontent.com/52549697/67659270-f91e5200-f929-11e9-84ca-086da84ab9e9.JPG)
+
 ![27](https://user-images.githubusercontent.com/52549697/67659271-f91e5200-f929-11e9-8c7e-057c2c21a128.JPG)
+
+1.8	Se pide que se personalice todos los hipervínculos usando pseudo-clases.
+
 ![28](https://user-images.githubusercontent.com/52549697/67659273-f91e5200-f929-11e9-9f8f-a843612ee9f4.JPG)
 ![29](https://user-images.githubusercontent.com/52549697/67659275-f9b6e880-f929-11e9-84c5-7abb6a34c100.JPG)
 ![30](https://user-images.githubusercontent.com/52549697/67659276-f9b6e880-f929-11e9-9f0d-c10508ca6def.JPG)
+
+
+1.9	Se pide que se cree un menú vertical (navegación) para todas las páginas. El menú debe tener bordes ovalados, con color de fondo y una separación entre cada menú de al menos 5px.
+Procedemos a crear el respectivo menú vertical con el siguiente código.
+
+![26](https://user-images.githubusercontent.com/52549697/67659270-f91e5200-f929-11e9-84ca-086da84ab9e9.JPG)
+
+1.10	Se pide crear una nueva página HTML, en donde, se muestre un formulario de contacto que tenga los siguientes campos (nombre, correo electrónico, mensaje y botón para enviar).
+
 ![31](https://user-images.githubusercontent.com/52549697/67659277-f9b6e880-f929-11e9-8475-6d20a7b96e0a.JPG)
 ![32](https://user-images.githubusercontent.com/52549697/67659278-fa4f7f00-f929-11e9-9186-a6d2e034532f.JPG)
 ![33](https://user-images.githubusercontent.com/52549697/67659280-fa4f7f00-f929-11e9-847d-a8c031ca420a.png)
+
+
+
 ![34](https://user-images.githubusercontent.com/52549697/67659281-fa4f7f00-f929-11e9-9df6-fb7d693e1788.JPG)
+
+
 ![35](https://user-images.githubusercontent.com/52549697/67659282-fae81580-f929-11e9-8acf-b0d45d945413.JPG)
 ![36](https://user-images.githubusercontent.com/52549697/67659284-fae81580-f929-11e9-9749-651ddb6a7ebd.JPG)
 ![37](https://user-images.githubusercontent.com/52549697/67659285-fae81580-f929-11e9-82d2-041979fdbffe.JPG)
+
+1.11	Resultados
 ![38](https://user-images.githubusercontent.com/52549697/67659286-fb80ac00-f929-11e9-9524-4b6f73168e0b.png)
 ![39](https://user-images.githubusercontent.com/52549697/67659287-fb80ac00-f929-11e9-852c-f3879cfb0407.JPG)
 ![40](https://user-images.githubusercontent.com/52549697/67659289-fb80ac00-f929-11e9-985d-372a1e2fcc06.JPG)
@@ -121,16 +183,20 @@ Usuario: criveral2
 Correo: criveral2@est.ups.edu.ec
 Github: git@github.com:criveral2/Practica02-Mi-Sitio-Web-CSS-.git
 
-
+<pre>
 RESULTADO(S) OBTENIDO(S):
+
 Se obtuvieron conocimientos sobre los diferentes estilos que utiliza una web para la creación de páginas, como también el buen uso de las herramientas que la web dispone.
+
 CONCLUSIONES:
+
 Se obtuvo el entendimiento de organizar sitios web utilizando el lenguaje html y css.
+
 RECOMENDACIONES:
+
 Probar la solución de la práctica en al menos tres navegadores web; Google Chrome, Firefox y Safari, además, probar la verificación de un validador de paginas web. 
 
 Nombre de estudiante: ___Christian Rivera__________________________
 
-
-Firma de estudiante: ___   ____________________________
+</pre>
 
