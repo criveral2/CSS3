@@ -8,7 +8,7 @@
 <head>
     <!--Hace referencia a que podra distingir letras especiales como es el caso de la ñ-->
 
-    <meta charset="uf-8">
+    <meta charset = "utf-8" >
     <!--<title> = nos idica el nombre de la pestaña de nuestra pagina web-->
 
     <title>Blog de computadoras</title>
@@ -27,10 +27,17 @@
     </header>
     <h1 id="tamanioh1">Tu blog de computadoras</h1>
 
-
+<!--La etiqueta nav nos permitira definir que la caja utilizada servira como contenedora de enlaces 
+esta se utiliza para dar un cuerpo a la pagina la cual sera entendidapor diferentes desarroladores-->
     <nav class="navegador">
+        <!-- h3 es una etiqueta que definira un titulo demenos importancia que la etiqueta h1 y h2-->
+        <!--la clase h3 nos indicara que recibe estilos de un archivo .css-->
         <h3 class="h3">Menu</h3>
+        <!-- la etiqueta <ul> nos permitira crear una lista no ordenada -->
         <ul>
+            <!--li es uin etiqueta complemento de ul ya que esta nos permite rellenar una lista-->
+            <!--laetiqueta a pemitira crear enlaces a las paginas indicadas, estas nos permitiran tener
+            conexion con las diferentes paginas desarrolladas-->
             <li><a href="Asus/zenbook.html">Laptop ZenBook pro</a></li>
             <li><a href="Apple/macbookpro.html">Laptop MacBook pro</a></li>
             <li><a href="msi/gs65.html">Laptop msi GS65</a></li>
@@ -47,10 +54,10 @@
 
 
     <section class="contenido">
-
+         <h3>Indice</h3>
 
         <nav id="indice">
-            <h3>Indice</h3>
+           
             <ul  >
                 <li><a href="#hi">Historia</a></li>
                 <li><a href="#im">Impacto Social</a></li>
@@ -58,9 +65,10 @@
             </ul>
         </nav>
 
-        <h2>Que es un computador portatil ?</h2>
+        
 
         <article id="bordebajo">
+                <h2>Que es un computador portatil ?</h2>
             <p>Una computadora portátil, ordenador portátil o computador portátil, es un dispositivo informático
                 que se puede mover o transportar con relativa facilidad. Los ordenadores portátiles son capaces
                 de realizar la mayor parte de las tareas que realizan los ordenadores de escritorio, también
@@ -68,7 +76,7 @@
                 tamaño reducidos. Además, también tienen la capacidad de operar por un período determinado por
                 medio de baterías recargables, sin estar conectadas a una red eléctrica.</p>
         </article>
-        <iframe class="video" src="https://www.youtube.com/embed/AhPiAxAuQSM" frameborder="0"
+        <iframe class="video" src="https://www.youtube.com/embed/AhPiAxAuQSM" 
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
 
@@ -124,7 +132,7 @@
 
         </article>
 
-        <article id="bordebajo">
+        <article >
             <h3 id="com">Componentes</h3>
             <p>
                 <b>CPU de bajo consumo:</b> Intel Core i3/i5/i7, Intel Core 2 Duo, Intel Core, Intel Atom, Celeron,
@@ -189,17 +197,17 @@
                 batería
                 de 6
                 celdas en un netbook con Intel Atom puede proporcionar una duración de unas 6 horas dependiendo del
-                modelo y el uso. </p>
+                modelo y el uso. 
             </p>
 
         </article>
-        <iframe class="video" src="https://www.youtube.com/embed/NGDs13Xks9s" frameborder="0" allow="accelerometer; 
+        <iframe class="video" src="https://www.youtube.com/embed/NGDs13Xks9s" allow="accelerometer; 
         autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </section>
 
 
-    <img src="img/Funciones.jpg" alt="imagen" width="100%">
+    <img src="img/Funciones.jpg" alt="imagen" class="tamanio">
 
 
     <!--La etiqueta <footer> nos permitira agregar un pie de pagina-->

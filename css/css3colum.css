@@ -18,9 +18,12 @@ footer{
     margin: 5px;
     clear: both;
 }
-
+/* el numeral nos indica que sera un selecto id
+y este sera utilizado por el que tenga ese id*/
 #estilo p {
     margin: 0;
+    /*indica que tendra un margen de 5% dentro de la caja
+    en la que encuentra*/
     padding: 5%;
     text-align: center;
 }

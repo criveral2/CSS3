@@ -1,15 +1,26 @@
+/*utilizaremos un selector de clase para
+poder posicionarlos de una manera mas sencilla*/
 .navegador{
-
+/*esta ocupara un ancho de la pantalla de un 20%*/
     width: 20%;
+    /*tambien indicaremos que sera de tipo float esto nos indicara que s
+    se posicionara a un lado de la etiqueta superior*/
     float: left;
+    /*  desactivaremos los estilos por defecto del navegador*/
     text-decoration: none;
 }
 .contenido{
     width: 75%;
     float: left;
 }
+
+/*el siguiente selector de elemento servira para la manipulacion
+de un pie de pagina*/
 footer{
+    /*definiremos un margen de 5 pixeles*/
     margin: 5px;
+    /*el comanod clear indicara que este selector no sera tomado en cuenta 
+    para ser un tipo float*/
     clear: both;
 }
 footer p {

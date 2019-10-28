@@ -217,12 +217,16 @@ iframe{
 
 }
 
+#indice ul li a{
+    margin: 10px;
+}
+
 
 #contact form{
     width: 80%;
     margin-top: 20px;
     text-align: center;
-   padding: 50 10 5;
+   
 }
 
 #contact input{
@@ -276,7 +280,6 @@ iframe{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    padding: -10px;
   
   }
 
@@ -329,8 +332,18 @@ iframe{
 
 /*---------complementos individuales-------*/
 
-article#bordebajo{
+#bordebajo article{
     border-bottom: 4px 
 }
+
+
+.tamanio{
+    width: 100%;
+}
+.altura{
+    height: 400px;
+    width: 100%;
+}
+
 
 
