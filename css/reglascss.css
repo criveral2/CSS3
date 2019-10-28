@@ -23,6 +23,8 @@ body{
     justify-content: center;
 
 }
+
+/*selector de clase*/
 .logo2{
     height: 310px;
     width: 100%;
@@ -42,6 +44,9 @@ header>h1{
     text-transform: uppercase;
 }
 
+
+/*selector de etiqueta o  directo
+esta afecta a todos con la etiqueta footer*/
 footer{
     background-image: url("../img/fondo2.jpg");
     
@@ -50,7 +55,7 @@ footer{
     text-align: center; 
 }
 
-
+/*selector decendente*/
 nav a{
     text-decoration: none;
     display: block;
@@ -60,13 +65,20 @@ nav a:hover{
     background-color: rgb(39, 37, 133);
 }
 
+/*especificamos que manipularemos las etiquetas nav*/
 nav{
+    /*ledaremos un fondo */
     background-image: url("../img/fondo2.jpg");
+    /*una altura maxima*/
     height: 100%;
+    /*indicaremos que tendra una margen punteado*/
     border: 2px dotted rgb(11, 185, 40);
+    /*tendra un borde curveado*/
     border-radius: 10px;
+    /*su margen sera de 10 pixeles*/
     margin-right: 10px;
 }
+
 nav li .localidad {
     background-color: rgb(36, 7, 139);
     color: white;
@@ -205,18 +217,26 @@ iframe{
     margin: 10px;
 }
 
+
+/*manipularemos al indice con un selector id*/
 #indice li{
+    /*eliminaremos la decoracion po defecto del
+    navegador*/
     text-decoration: none;
+    /*una forma que cumple el mismo funcionamiento de float*/
     display: inline-block;
+    /*Indicamos que el navegador lo indique*/
     margin-left: auto;
     margin-right: auto;
    
 }
+/*centramos a los elementos que se encuentran deltrode la lista*/
 #indice ul{
     text-align: center;
 
 }
 
+/*indicamos que tendra un margen de 10px de separacion*/
 #indice ul li a{
     margin: 10px;
 }
@@ -284,17 +304,27 @@ iframe{
   }
 
 
+  /*el selector no permitira dar un desenfique a la 
+  imagen*/
 .desenfoque{
+    /*Definimos un estilo para 
+    el objeto a manipular*/
     text-align: center;
     width: 100%;
     padding-left: 10%;
     padding-left: 10px;
 }
-
+/*utilizamos pseudocodigo para indicar
+que realice una accion al momento de 
+colocar el cursor ensima del objeto*/
 .desenfoque:hover {
+    /*filter indicara que se cree un 
+    desenfoque sobre la imagen*/
     filter: blur(5px);
 }
 .desenfoque:hover {
+    /*el cursor se cambiara a un simbolo de 
+    inaxesible*/
     cursor: no-drop;
 }
 
@@ -313,6 +343,10 @@ iframe{
 .gris:hover {
     cursor: no-drop;
 }
+
+
+
+
 
 .saturar{
     text-align: center;
